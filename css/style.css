@@ -1,0 +1,10 @@
+.music-boxes-ul{
+  list-style-type: none;
+}
+
+.music-box {
+  display: inline-block;
+  border: 4px solid #555;
+  padding: 20px;
+  margin: 10px;
+}
