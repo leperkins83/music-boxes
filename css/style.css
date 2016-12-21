@@ -1,10 +1,82 @@
+body {
+  background-color: #222;
+}
+
 .music-boxes-ul{
   list-style-type: none;
+  text-align: center;
+  margin-top: 15%;
 }
 
 .music-box {
   display: inline-block;
   border: 4px solid #555;
-  padding: 20px;
+  padding: 20px 28px;
   margin: 10px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.cBox {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+
+.cBox:hover {
+  background-color: #661920;
+}
+
+.dBox {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+}
+
+.dBox:hover {
+  background-color: #6e2819;
+}
+
+.eBox {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+
+.eBox:hover {
+  background-color: #735b20;
+}
+
+.fBox {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+}
+
+.fBox:hover {
+  background-color: #1b613b;
+}
+
+.gBox {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+}
+
+.gBox:hover {
+  background-color: #184d65;
+}
+
+.aBox {
+    background-color: #331f35;
+    border: 3px solid #a13fad;
+}
+
+.aBox:hover {
+  background-color: #4e2753;
+}
+
+.bBox {
+    background-color: #43293d;
+    border: 3px solid #f26fd4;
+}
+
+.bBox:hover {
+  background-color: #6f3a62;
 }
